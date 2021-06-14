@@ -59,7 +59,7 @@
     <Compile Include="Assets\Scripts\GameClient.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\ProudDotNetClient.dll" />
+     <None Include="Assets\ProudDotNetClientUnity.dll" />
     <Reference Include="UnityEngine">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -282,8 +282,8 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="ProudDotNetClient">
-      <HintPath>Assets\ProudDotNetClient.dll</HintPath>
+    <Reference Include="ProudDotNetClientUnity">
+      <HintPath>Assets\ProudDotNetClientUnity.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

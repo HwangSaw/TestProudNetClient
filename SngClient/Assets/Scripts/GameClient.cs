@@ -2,8 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 using Nettention.Proud;
+
 
 
 public class GameClient : MonoBehaviour
@@ -41,9 +41,9 @@ public class GameClient : MonoBehaviour
         GUI.TextField(new Rect(10, 130, 180, 30), "");
         GUI.Toggle(new Rect(10, 160, 180, 20), false, "Create a new Vill");
 
-        if(GUI.Button(new Rect(10, 190, 100, 30),"Connect!"))
+        if (GUI.Button(new Rect(10, 190, 100, 30), "Connect!"))
         {
-            if( m_state == State.Standby)
+            if (m_state == State.Standby)
             {
                 m_state = State.Connecting;
                 m_loginButtonText = "Connecting...";
@@ -57,7 +57,7 @@ public class GameClient : MonoBehaviour
     {
         m_netClient.JoinServerCompleteHandler = (ErrorInfo info, ByteArray replyFromServer) =>
         {
-            if(info.errorType == ErrorType.Ok)
+            if (info.errorType == ErrorType.Ok)
             {
                 m_loginButtonText = "Connected!";
             }
