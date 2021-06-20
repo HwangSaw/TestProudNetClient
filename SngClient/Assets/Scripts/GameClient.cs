@@ -1,25 +1,13 @@
+using UnityEngine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using Nettention.Proud;
 
 
 
 public class GameClient : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     string m_serverAddr = "localhost";
     string m_villeName = "Janna";
     bool m_requestNEwVille = false;
@@ -30,16 +18,29 @@ public class GameClient : MonoBehaviour
 
     NetClient m_netClient = new NetClient();
 
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
 
-    private void OnGUI()
+    // Update is called once per frame
+    void Update()
+    {
+        if(m_netClient != null)
+            m_netClient.FrameMove();
+    }
+
+
+    void OnGUI()
     {
         // logon GUI
         GUI.Label(new Rect(10, 10, 300, 70), "ProudNEt example:\na simple social ville");
         GUI.Label(new Rect(10, 60, 180, 30), "Server address");
-        GUI.TextField(new Rect(10, 80, 180, 30), "");
+        m_serverAddr = GUI.TextField(new Rect(10, 80, 180, 30), m_serverAddr);
         GUI.Label(new Rect(10, 110, 180, 30), "Ville name");
-        GUI.TextField(new Rect(10, 130, 180, 30), "");
-        GUI.Toggle(new Rect(10, 160, 180, 20), false, "Create a new Vill");
+        m_villeName =  GUI.TextField(new Rect(10, 130, 180, 30), m_villeName);
+        m_requestNEwVille =  GUI.Toggle(new Rect(10, 160, 180, 20), m_requestNEwVille, "Create a new Vill");
 
         if (GUI.Button(new Rect(10, 190, 100, 30), "Connect!"))
         {
@@ -47,13 +48,13 @@ public class GameClient : MonoBehaviour
             {
                 m_state = State.Connecting;
                 m_loginButtonText = "Connecting...";
-                IssuConnect();
+                IssueConnect();
 
             }
         }
     }
 
-    private void IssuConnect()
+    private void IssueConnect()
     {
         m_netClient.JoinServerCompleteHandler = (ErrorInfo info, ByteArray replyFromServer) =>
         {
@@ -69,7 +70,7 @@ public class GameClient : MonoBehaviour
 
         m_netClient.LeaveServerHandler = (ErrorInfo info) =>
         {
-
+            m_loginButtonText = "LEFT!!!!";
         };
 
         // asynchronous connect

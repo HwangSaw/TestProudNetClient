@@ -59,7 +59,9 @@
     <Compile Include="Assets\Scripts\GameClient.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\ProudNetClientPlugin.dll" />
      <None Include="Assets\ProudDotNetClientUnity.dll" />
+     <None Include="Assets\ProudNetClient.dll" />
     <Reference Include="UnityEngine">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
