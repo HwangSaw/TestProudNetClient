@@ -299,14 +299,17 @@
     <Reference Include="System.Collections.Concurrent">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
     </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.dll</HintPath>
+    </Reference>
     <Reference Include="System.Collections.NonGeneric">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
     </Reference>
     <Reference Include="System.Collections.Specialized">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
     </Reference>
-    <Reference Include="System.Collections">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Collections.dll</HintPath>
+    <Reference Include="System.ComponentModel">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.EventBasedAsync">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
@@ -316,9 +319,6 @@
     </Reference>
     <Reference Include="System.ComponentModel.TypeConverter">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ComponentModel.dll</HintPath>
     </Reference>
     <Reference Include="System.Console">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Console.dll</HintPath>
@@ -362,17 +362,23 @@
     <Reference Include="System.Globalization.Calendars">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
     </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.dll</HintPath>
+    </Reference>
     <Reference Include="System.Globalization.Extensions">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="System.Globalization">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Globalization.dll</HintPath>
+    <Reference Include="System.IO.Compression">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.ZipFile">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
     </Reference>
-    <Reference Include="System.IO.Compression">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+    <Reference Include="System.IO">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.FileSystem.DriveInfo">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
@@ -382,9 +388,6 @@
     </Reference>
     <Reference Include="System.IO.FileSystem.Watcher">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.IsolatedStorage">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
@@ -398,8 +401,8 @@
     <Reference Include="System.IO.UnmanagedMemoryStream">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
     </Reference>
-    <Reference Include="System.IO">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.IO.dll</HintPath>
+    <Reference Include="System.Linq">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.dll</HintPath>
     </Reference>
     <Reference Include="System.Linq.Expressions">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
@@ -409,9 +412,6 @@
     </Reference>
     <Reference Include="System.Linq.Queryable">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Linq.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Net.Http.dll</HintPath>
@@ -449,14 +449,14 @@
     <Reference Include="System.ObjectModel">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ObjectModel.dll</HintPath>
     </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.dll</HintPath>
+    </Reference>
     <Reference Include="System.Reflection.Extensions">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection.Primitives">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="System.Resources.Reader">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
@@ -470,17 +470,20 @@
     <Reference Include="System.Runtime.CompilerServices.VisualC">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="System.Runtime.Extensions">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Handles">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
-    </Reference>
     <Reference Include="System.Runtime.InteropServices">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Numerics">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
@@ -496,9 +499,6 @@
     </Reference>
     <Reference Include="System.Runtime.Serialization.Xml">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="System.Security.Claims">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.Claims.dll</HintPath>
@@ -524,23 +524,26 @@
     <Reference Include="System.Security.SecureString">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
     </Reference>
-    <Reference Include="System.Text.Encoding.Extensions">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="System.Text.Encoding">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.RegularExpressions">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
     </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.dll</HintPath>
+    </Reference>
     <Reference Include="System.Threading.Overlapped">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
     </Reference>
-    <Reference Include="System.Threading.Tasks.Parallel">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
-    </Reference>
     <Reference Include="System.Threading.Tasks">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Thread">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
@@ -551,9 +554,6 @@
     <Reference Include="System.Threading.Timer">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
     </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Threading.dll</HintPath>
-    </Reference>
     <Reference Include="System.ValueTuple">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.ValueTuple.dll</HintPath>
     </Reference>
@@ -563,23 +563,26 @@
     <Reference Include="System.Xml.XDocument">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
     </Reference>
-    <Reference Include="System.Xml.XPath.XDocument">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XPath">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.XmlDocument">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.XmlSerializer">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
     <Reference Include="System.Numerics.Vectors">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Numerics.Vectors.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Composition">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
@@ -589,6 +592,9 @@
     </Reference>
     <Reference Include="System.Data">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Drawing.dll</HintPath>
@@ -617,20 +623,14 @@
     <Reference Include="System.Windows">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Windows.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Linq.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Serialization">
       <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="System">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.dll</HintPath>
-    </Reference>
-    <Reference Include="mscorlib">
-      <HintPath>E:\Program Files (x86)\Unity\2020.3.9f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>

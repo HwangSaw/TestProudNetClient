@@ -82,4 +82,9 @@ public class GameClient : MonoBehaviour
         m_netClient.Connect(cp);
 
     }
+
+    private void OnDestroy()
+    {
+        m_netClient.Dispose();
+    }
 }
