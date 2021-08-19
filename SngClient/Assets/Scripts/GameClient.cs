@@ -54,13 +54,19 @@ public class GameClient : MonoBehaviour
         }
     }
 
+   // SocialC2S.Proxy m_C2SProxy = new SocialC2S.Proxy();
+    //SocialS2S.Stub m_S2CStub = new SocialS2C.Stub();
+
     private void IssueConnect()
     {
         m_netClient.JoinServerCompleteHandler = (ErrorInfo info, ByteArray replyFromServer) =>
         {
             if (info.errorType == ErrorType.Ok)
             {
-                m_loginButtonText = "Connected!";
+                m_state = State.LoggingOn;
+                m_loginButtonText = "Logging on...";
+               // m_loginButtonText = "Connected!";
+               //m_C2SProxy.RequestLogon(HostID.HostID_Server, RmiContext.ReliableSend, m_villeName, m_requestNEwVille)
             }
             else
             {
