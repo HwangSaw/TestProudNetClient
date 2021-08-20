@@ -57,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameClient.cs" />
-    <Compile Include="Assets\Social_stub.cs" />
-    <Compile Include="Assets\Social_common.cs" />
-    <Compile Include="Assets\Social_proxy.cs" />
+    <Compile Include="Assets\Scripts\Social_stub.cs" />
+    <Compile Include="Assets\Scripts\Social_common.cs" />
+    <Compile Include="Assets\Scripts\Social_proxy.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\ProudNetClientPlugin.dll" />
